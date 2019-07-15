@@ -2,6 +2,7 @@ import React from "react";
 import "../Assets/css/Home.css";
 import HomeCarousel from "./HomeCarousel";
 import HomeUpcomingStreams from "./HomeUpcomingStreams";
+import Footer from "./footer/Footer"
 
 class Home extends React.Component {
     render() {
@@ -33,6 +34,7 @@ class Home extends React.Component {
                     videoSrc="https://www.autoblog.com/img/adblocker-interstitial.jpg"
                 />
                 <HomeUpcomingStreams />
+                <Footer />
             </div>
         );
     }

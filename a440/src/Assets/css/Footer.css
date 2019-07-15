@@ -1,0 +1,10 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+    padding: 10vw;
+}
+
+.FooterCopyright {
+    font-family: "Futura Std";
+    color: var(--gray);
+}
