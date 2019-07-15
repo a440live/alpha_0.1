@@ -1,0 +1,79 @@
+.HomeCarousel{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 1vw;
+}
+
+.HomeCarouselLivePosition{
+    width: 35vw;
+    height: 27vw;
+    /*background-color: grey;*/
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.HomeCarouselLive {
+    z-index: 2;
+    width: 35vw;
+    height: 19.7vw;
+    box-shadow: 0 0 7px grey;
+}
+
+.HomeCarouselArticle {
+    position: absolute;
+    width: 25vw;
+    top: 12%;
+    left: 10%;
+    z-index: 1;
+    box-shadow: 0 0 7px grey;
+}
+
+.HomeCarouselVideo {
+    position: absolute;
+    width: 25vw;
+    top: 12%;
+    right: 10%;
+    z-index: 1;
+    box-shadow: 0 0 7px grey;
+}
+
+.HomeCarouselLiveInfo {
+    margin: 0.5vw;
+    margin-top: -0.7vw;
+}
+
+.HomeCarouselLiveTitle {
+    font-family: "Futura";
+    font-weight: normal;
+    font-size: 1.2vw;
+}
+
+.HomeCarouselLiveArtistRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: -0.2vw;
+    font-family: "Futura Std";
+    font-size: 1.2vw;
+    font-weight: normal;
+    justify-content: space-between;
+}
+
+.HomeCarouselLiveNow {
+    border-radius: 0.2vw;
+    height: 1.1vw;
+    font-size: 1vw;
+    width: auto;
+    color: white;
+    background-color: var(--red); /* Note: the color setting is overwritten by the ternary in the div with this class name, found in HomeCarousel.js file*/
+    padding: 0.2vw;
+    margin-top: -0.2vw;
+}
