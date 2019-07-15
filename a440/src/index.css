@@ -7,6 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root {
+  --gold: #b5ab50;
+  --gray: #8F8F8F;
+  --red: #B55050;
+}
+
+
+@font-face {
+  font-family: "Futura Std";
+  src: url("./Assets/Fonts/Futura-Std-Light.ttf");
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

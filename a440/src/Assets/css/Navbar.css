@@ -23,6 +23,10 @@ Navigation Bar
 }
 .navbar{
     background-color: white;
+    position: fixed;
+    width: 100vw;
+    height: 5vh;
+    box-shadow: 0 15px 3vh 3vh white;
 }
 
 .navbar_list{
