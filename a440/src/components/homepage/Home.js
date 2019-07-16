@@ -1,8 +1,12 @@
 import React from "react";
-import "../Assets/css/Home.css";
+
+//Styling Import
+import "../../Assets/css/Home.css";
+
+//Component Imports
 import HomeCarousel from "./HomeCarousel";
 import HomeUpcomingStreams from "./HomeUpcomingStreams";
-import Footer from "./footer/Footer"
+import Footer from "../footer/Footer"
 
 class Home extends React.Component {
     render() {

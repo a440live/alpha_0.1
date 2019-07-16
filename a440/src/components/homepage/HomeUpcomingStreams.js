@@ -1,6 +1,6 @@
 import React from 'react';
 
-//Library imports
+//Library Imports
 import{
     BrowserRouter as Router,
     Route
@@ -10,11 +10,11 @@ import MediaQuery from 'react-responsive';
 //Component Imports
 import StreamCard from "./StreamCard";
 
-//Database imports
+//Database Imports
 import upcomingStreams from "./upcomingStreams";
 
-//Styling imports
-import "../Assets/css/HomeUpcomingStreams.css";
+//Styling Imports
+import "../../Assets/css/HomeUpcomingStreams.css";
 
 class HomeUpcomingStreams extends React.Component {
     constructor() {

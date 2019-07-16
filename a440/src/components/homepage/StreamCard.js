@@ -1,5 +1,8 @@
 import React from "react";
-import "../Assets/css/StreamCard.css";
+
+//Styling Import
+import "../../Assets/css/StreamCard.css";
+
 class StreamCard extends React.Component {
   handleMouseOver() {
     console.log("hovering");

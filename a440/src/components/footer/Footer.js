@@ -1,4 +1,6 @@
 import React from "react"
+
+//Styling Import
 import "../../Assets/css/Footer.css"
 
 class Footer extends React.Component{

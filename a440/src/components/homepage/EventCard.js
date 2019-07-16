@@ -1,5 +1,8 @@
 import React from "react";
-import "../Assets/css/EventCard.css";
+
+//Styling Import
+import "../../Assets/css/EventCard.css";
+
 class EventCard extends React.Component {
     handleMouseOver() {
         console.log("hovering");

@@ -8,8 +8,8 @@ import{
 import MediaQuery from 'react-responsive';
 
 //Component imports
-import Navbar from './components/header/navbar';
-import Home from './components/Home'
+import Navbar from './components/header/Navbar';
+import Home from './components/homepage/Home'
 
 //Styling imports
 import './Assets/css/Navbar.css';
