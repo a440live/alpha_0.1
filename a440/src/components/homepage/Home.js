@@ -1,7 +1,7 @@
 import React from "react";
 
 //Styling Import
-import "../../Assets/css/Home.css";
+import "../../Assets/css/homepage/Home.css";
 
 //Component Imports
 import HomeCarousel from "./HomeCarousel";

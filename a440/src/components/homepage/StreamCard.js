@@ -1,7 +1,7 @@
 import React from "react";
 
 //Styling Import
-import "../../Assets/css/StreamCard.css";
+import "../../Assets/css/homepage/StreamCard.css";
 
 class StreamCard extends React.Component {
   handleMouseOver() {

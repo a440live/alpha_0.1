@@ -14,7 +14,7 @@ import StreamCard from "./StreamCard";
 import upcomingStreams from "./upcomingStreams";
 
 //Styling Imports
-import "../../Assets/css/HomeUpcomingStreams.css";
+import "../../Assets/css/homepage/HomeUpcomingStreams.css";
 
 class HomeUpcomingStreams extends React.Component {
     constructor() {

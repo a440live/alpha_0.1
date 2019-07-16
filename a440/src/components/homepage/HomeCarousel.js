@@ -1,7 +1,7 @@
 import React from "react";
 
 //Styling Import
-import "../../Assets/css/HomeCarousel.css";
+import "../../Assets/css/homepage/HomeCarousel.css";
 
 class HomeCarousel extends React.Component {
   render() {
