@@ -37,8 +37,9 @@ class Home extends React.Component {
                     liveSrc="https://www.youtube.com/embed/2DYYVp4QXew"
                     videoSrc="https://www.autoblog.com/img/adblocker-interstitial.jpg"
                 />
-                <HomeUpcomingStreams />
-                <Footer />
+
+                <HomeUpcomingStreams/>
+                <Footer/>
             </div>
         );
     }

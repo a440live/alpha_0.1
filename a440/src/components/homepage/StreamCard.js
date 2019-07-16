@@ -10,7 +10,7 @@ class StreamCard extends React.Component {
   render() {
     return (
       <div className="StreamCard" onMouseEnter={() => this.handleMouseOver()}>
-        <a /*href={this.props.streamurl} style={{ textDecoration: "none" }}*/>
+        <a href={this.props.streamurl} style={{ textDecoration: "none" }}>
           <img
             className="StreamThumbnail"
             src={this.props.imgsrc}

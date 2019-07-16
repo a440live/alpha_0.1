@@ -3,8 +3,8 @@ const upcomingStreams = [
     id: 1,
     imgsrc: "https://www.autoblog.com/img/adblocker-interstitial.jpg",
     imgalt: "A good day",
-    artist: "Shepherd",
-    title: "Tchaikovsky",
+    artist: "Shepherd School of Music",
+    title: "Tchaikovsky's 5th Symphony, Shostakovich's 6th Symphony",
     date: "Tuesday, July 2, 2019",
     time: "19:00 CST",
     streamurl:
@@ -14,8 +14,8 @@ const upcomingStreams = [
     id: 2,
     imgsrc: "https://www.autoblog.com/img/adblocker-interstitial.jpg",
     imgalt: "A good day",
-    artist: "Peabody",
-    title: "Tchaikovsky",
+    artist: "Peabody Institute",
+    title: "Tchaikovsky's 5th Symphony, Shostakovich's 6th Symphony",
     date: "Tuesday, July 2, 2019",
     time: "19:00 CST",
     streamurl:

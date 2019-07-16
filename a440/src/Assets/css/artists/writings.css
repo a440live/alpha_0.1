@@ -1,0 +1,10 @@
+.artist_writings {
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.artist_writings_card {
+    display: inline-flex;
+    flex-direction: column;
+}
