@@ -1,7 +1,7 @@
 import React from 'react';
 
 //Styling Import
-import '../../Assets/css/Navbar.css';
+import '../../Assets/css/navbar.css';
 
 //Library Imports
 // import { Link } from "react-scroll";

@@ -1,10 +1,10 @@
-.Home {
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.Welcome {
+.welcome {
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -12,33 +12,34 @@
   margin-top: 5vh;
 }
 
-.WelcomeTitle {
+.welcome_title {
   font-family: "Futura Std";
   font-weight: lighter;
   font-size: 4.5vw;
   text-shadow: 0 0 2px var(--gray);
 }
 
-.WelcomeTitle em {
+.welcome_title em {
   color: var(--gold);
   font-style: normal;
 }
 
-.WelcomeTitle en {
+.welcome_title en {
   border-bottom: 2px solid var(--gold);
   padding-bottom: 0;
 }
 
-.WelcomeText {
+.welcome_text {
   font-family: "Futura Std";
+  font-size: 2vw;
   font-weight: lighter;
   text-align: center;
   color: var(--gray);
-  width: 60%;
   margin-top: -1vw;
 }
 
-.WelcomeText a {
+.welcome_text a {
   text-decoration: underline;
   color: var(--gray);
+  font-size: 1vw;
 }

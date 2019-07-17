@@ -1,16 +1,16 @@
 import React from "react";
 
 //Styling Import
-import "../../Assets/css/artists/writings_card.css";
+import "../../Assets/css/artist/writings_card.css";
 
-class Writings_Card extends React.Component {
+class Writings_card extends React.Component {
     handleMouseOver() {
         console.log("hovering");
     }
     render() {
         return (
-            <div className="writings_card" onMouseEnter={() => this.handleMouseOver()}>
-                <a href={this.props.streamurl} style={{ textDecoration: "none" }}>
+            <a href={this.props.writingurl} style={{ textDecoration: "none" }}>
+                <div className="writings_card" onMouseEnter={() => this.handleMouseOver()}>
                     <img
                         className="writings_thumbnail"
                         src={this.props.imgsrc}
@@ -25,10 +25,10 @@ class Writings_Card extends React.Component {
                         </p>
                         <p className="writings_description"> {this.props.description} </p>
                     </div>
-                </a>
-            </div>
+                </div>
+            </a>
         );
     }
 }
 
-export default Writings_Card;
+export default Writings_card;

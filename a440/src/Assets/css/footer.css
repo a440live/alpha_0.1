@@ -1,10 +1,10 @@
-.Footer {
+.footer {
     display: flex;
     justify-content: center;
     padding: 10vw 10vw 0 10vw;
 }
 
-.FooterCopyright {
+.footer_copyright {
     font-family: "Futura Std";
     color: var(--gray);
 }

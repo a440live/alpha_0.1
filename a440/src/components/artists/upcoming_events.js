@@ -1,4 +1,4 @@
-const upcomingStreams = [
+const upcoming_events = [
   {
     id: 1,
     type: "LIVE STREAM",
@@ -19,4 +19,4 @@ const upcomingStreams = [
   }
 ];
 
-export default upcomingStreams;
+export default upcoming_events;

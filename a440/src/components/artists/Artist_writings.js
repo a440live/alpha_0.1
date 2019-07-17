@@ -8,15 +8,15 @@ import{
 import MediaQuery from 'react-responsive';
 
 //Component Imports
-import Writings_Card from "./writings_card";
+import Writings_card from "./Writings_card";
 
 //Database Imports
 import writings_data from "./writings_database";
 
 //Styling Imports
-import "../../Assets/css/artists/writings.css";
+import "../../Assets/css/artist/artist_writings.css";
 
-class Artist_Writings extends React.Component {
+class Artist_writings extends React.Component {
     constructor() {
         super();
         this.state = {
@@ -25,13 +25,15 @@ class Artist_Writings extends React.Component {
     }
     render() {
         const writingsCard = this.state.streams.map(stream => (
-            <Writings_Card
+            <Writings_card
                 key={stream.id}
                 title={stream.title}
                 artist={stream.artist}
                 date={stream.date}
                 description={stream.description}
-                streamurl={stream.streamurl}
+                writingurl={stream.writingurl}
+                imgsrc={stream.imgsrc}
+                imgalt={stream.imgalt}
             />
         ));
 
@@ -45,4 +47,4 @@ class Artist_Writings extends React.Component {
     }
 }
 
-export default Artist_Writings;
+export default Artist_writings;

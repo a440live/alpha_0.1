@@ -1,4 +1,4 @@
-.EventCard {
+.event_card {
   width: 300px;
   height: auto;
   box-shadow: 0px 2px 5px #808080;
@@ -9,29 +9,29 @@
   margin: 10px;
 }
 
-/*.EventCard:hover {
+/*.Event_card:hover {
   box-shadow: 0px 2px 9px #989898;
 }*/
 
-.EventText {
+.event_text {
   margin: 5%;
   margin-top: -4%;
   margin-bottom: 0;
   color: black;
 }
 
-.EventType {
+.event_type {
   text-align: left;
 }
 
-.EventTitle {
+.event_title {
   text-align: left;
 }
 
-.EventDate {
+.event_date {
   text-align: left;
 }
 
-.EventDesc {
+.event_desc {
   text-align: left;
 }

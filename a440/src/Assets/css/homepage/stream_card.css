@@ -1,4 +1,4 @@
-.StreamCard {
+.stream_card {
   width: 300px;
   height: auto;
   box-shadow: 0px 2px 5px #808080;
@@ -9,11 +9,11 @@
   background-color: white;
 }
 
-.StreamThumbnail {
+.stream_thumbnail {
   width: 100%;
 }
 
-.StreamText {
+.stream_text {
   font-family: "Futura Std", serif;
   font-size: 20px;
   font-weight: 400;
@@ -21,7 +21,7 @@
   color: black;
 }
 
-.StreamArtist {
+.stream_artist {
   font-family: "Futura Std", serif;
   font-size: 22px;
   font-weight: 400;
@@ -29,15 +29,15 @@
   margin: 20px 0 0 0;
 }
 
-.StreamTitle {
-  font-family: "Futura Std", serif;
+.stream_title {
+  font-family: "Futura", serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: lighter;
   text-align: left;
   margin: 20px 0 0 0;
 }
 
-.StreamDate {
+.stream_date {
   font-family: "Futura Std", serif;
   font-size: 18px;
   font-weight: 400;

@@ -1,4 +1,4 @@
-const upcomingStreams = [
+const upcoming_streams = [
   {
     id: 1,
     imgsrc: "https://www.autoblog.com/img/adblocker-interstitial.jpg",
@@ -23,4 +23,4 @@ const upcomingStreams = [
   }
 ];
 
-export default upcomingStreams;
+export default upcoming_streams;

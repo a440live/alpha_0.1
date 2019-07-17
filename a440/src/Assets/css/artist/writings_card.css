@@ -3,7 +3,7 @@
     height: auto;
     box-shadow: 0 2px 5px #808080;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: black;
     margin: 10px;
     background-color: white;

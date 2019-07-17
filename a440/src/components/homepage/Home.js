@@ -1,35 +1,33 @@
 import React from "react";
 
 //Styling Import
-import "../../Assets/css/homepage/Home.css";
+import "../../Assets/css/homepage/home.css";
 
 //Component Imports
-import HomeCarousel from "./HomeCarousel";
-import HomeUpcomingStreams from "./HomeUpcomingStreams";
+import Home_carousel from "./Home_carousel";
+import Home_upcoming_streams from "./Home_upcoming_streams.js";
 import Footer from "../footer/Footer"
 
 class Home extends React.Component {
     render() {
         return (
-            <div className="Home">
-                <div className="Welcome">
-                    <h1 className="WelcomeTitle">
+            <div className="home">
+                <div className="welcome">
+                    <h1 className="welcome_title">
                         Welcome to{" "}
                         <en>
                             <em>A</em>440
                         </en>
                     </h1>
-                    <p className="WelcomeText">
-                        A440 is a new way for classical musicians and audiences to connect
-                        outside the concert hall. Enjoy exclusive livestreams and get to know
-                        your favorite artists through videos and blog posts. <br />
+                    <h2 className="welcome_text">
+                        Your hub for classical music. <br />
                         <a href="a440live.com">
                             {" "}
                             Learn More{" "}
                         </a>
-                    </p>
+                    </h2>
                 </div>
-                <HomeCarousel
+                <Home_carousel
                     articleSrc="https://www.autoblog.com/img/adblocker-interstitial.jpg"
                     liveTitle="Tchaikovsky’s 5th Symphony, Shostakovich’s 6th Symphony"
                     liveArtist="Shepherd School of Music"
@@ -38,7 +36,7 @@ class Home extends React.Component {
                     videoSrc="https://www.autoblog.com/img/adblocker-interstitial.jpg"
                 />
 
-                <HomeUpcomingStreams/>
+                <Home_upcoming_streams/>
                 <Footer/>
             </div>
         );
