@@ -11,6 +11,7 @@ class Artist extends React.Component {
         return(
             <div>
                 <Navbar/>
+                <div className="artist"></div>
 
             </div>
         )
