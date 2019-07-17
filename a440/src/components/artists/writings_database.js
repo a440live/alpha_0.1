@@ -13,8 +13,8 @@ const writings_data = [
             "https://www1.9anime.nl/watch/fullmetal-alchemist-brotherhood.0r7/wv9oko"
     },
     {
-        id: 1,
-        imgsrc: './thumbnail.png',
+        id: 2,
+        imgsrc: thumbnail,
         imgalt: "Loreem ipsum",
         title: "The Making of Liszt's 4th Symphony",
         artist: "Shepherd Symphony Orchestra",
