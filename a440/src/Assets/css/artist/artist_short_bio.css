@@ -15,7 +15,7 @@
 .artist_short_bio_profile_picture {
     width: 25vw;
     height: 25vw;
-    border-radius: 12.5vw;
+    border-radius: 50%;
     object-fit: cover;
     object-position: 100%;
 }
@@ -26,7 +26,7 @@
     justify-content: center;
     margin: 2vw;
     color: black;
-    font-family: "Futura Std";
+    font-family: "Futura Std", serif;
     font-size: 1.5vw;
 }
 
