@@ -21,13 +21,13 @@
 }
 
 .artist_short_bio_text {
+    font-family: "Futura Std", serif;
+    font-size: 1.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 2vw;
     color: black;
-    font-family: "Futura Std", serif;
-    font-size: 1.5vw;
 }
 
 .artist_short_bio_text a {
