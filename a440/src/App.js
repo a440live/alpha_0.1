@@ -23,7 +23,7 @@ function App() {
             <Navbar/>
             <Home/>
             <Artist_writings/>
-            <Artist_short_bio imgsrc="https://www.autoblog.com/img/adblocker-interstitial.jpg" imgalt="LoremIpsum" artistlink="https://www1.9anime.nl/watch/fullmetal-alchemist-brotherhood.0r7/wv9oko"/>
+
         </div>
       </Router>
   );

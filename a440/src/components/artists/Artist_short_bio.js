@@ -12,7 +12,7 @@ class Artist_short_bio extends React.Component{
                          alt={this.props.imgalt}
                     />
                     <p className="artist_short_bio_text">
-                        The Shepherd School of Music is a music school located on the campus of Rice University in Houston, Texas. From its inception in 1974 under dean Samuel Jones, the Shepherd School has emphasized orchestral, chamber music, and opera as the central elements of its performing curriculum. <br/>
+                        {this.props.description} <br/>
                         <a href={this.props.artistlink}> Learn more </a>
                     </p>
                 </div>
