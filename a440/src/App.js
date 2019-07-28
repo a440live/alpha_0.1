@@ -18,14 +18,12 @@ import './Assets/css/navbar.css';
 
 function App() {
   return (
-      <Router>
         <div className="App">
             <Navbar/>
             <Home/>
             <Artist_writings/>
 
         </div>
-      </Router>
   );
 }
 

@@ -14,6 +14,7 @@
 }*/
 
 .event_text {
+  font-family: "Futura Std";
   margin: 5%;
   margin-top: -4%;
   margin-bottom: 0;
@@ -21,11 +22,17 @@
 }
 
 .event_type {
+  font-weight: lighter;
   text-align: left;
 }
 
 .event_title {
+  font-family: Futura;
+  font-weight: lighter;
+  font-size: 15pt;
   text-align: left;
+  margin-top: -5pt;
+  margin-bottom: -5pt;
 }
 
 .event_date {

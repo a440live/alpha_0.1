@@ -36,9 +36,6 @@ class Video_tab extends React.Component {
         ));
         return (
             <div className="video_tab_uploaded_videos">
-                <h1 className="video_tab_videos_title">
-                    Upcoming <em>Events</em>
-                </h1>
                 <div className = "video_tab_uploaded_video_cards">
                     {videoCards}
                 </div>

@@ -2,6 +2,7 @@ import React from 'react';
 
 //Styling Import
 import '../../Assets/css/navbar.css';
+import {Link} from "react-router-dom";
 
 //Library Imports
 // import { Link } from "react-scroll";
@@ -12,12 +13,12 @@ function Header() {
 
         <nav className="navbar">
             <ul className="navbar_list">
-                <a href="#0" className="blank">
+                <Link to={'/'} style={{ textDecoration: 'none', color: 'black'}} className="blank">
                     <img className='logo' src='/logo.png' alt='A440 Logo'/>
-                </a>
-                <a href="#0" className="navbar_link">
+                </Link>
+                <Link to={'/artist'} style={{ textDecoration: 'none', color: 'black'}} className="navbar_link">
                     Artists
-                </a>
+                </Link>
                 <a href="#0" className="navbar_link">
                     About
                 </a>

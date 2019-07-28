@@ -15,17 +15,22 @@ class Artist extends React.Component {
             tab: "Stream"
         };
     }
+    artist() {
+        if (this.state.tab === "Stream") {
+            return(
+                <Stream_tab/>
+            )
+        } else if (this.state.tab === "Video") {
+            return(<Video_tab/>)
+        }
+    }
+
     render() {
         return(
             <div>
                 <Navbar/>
                 <div className="artist">
-                    {() => {if (this.state.tab == "Stream") {
-                        return(<Stream_tab/>)
-                    } else if (this.state.tab == "Video") {
-                        return(<Video_tab/>)
-                    }
-                    }}
+                    {this.artist()}
                 </div>
             </div>
         )
