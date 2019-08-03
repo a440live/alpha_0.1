@@ -1,4 +1,4 @@
-const uploaded_videos = [
+const videos_database = [
     {
         id: 1,
         imgsrc: "https://www.autoblog.com/img/adblocker-interstitial.jpg",
@@ -21,4 +21,4 @@ const uploaded_videos = [
     }
 ];
 
-export default uploaded_videos;
+export default videos_database;

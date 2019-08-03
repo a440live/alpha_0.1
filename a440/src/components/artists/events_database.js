@@ -1,4 +1,4 @@
-const upcoming_events = [
+const events_database = [
   {
     id: 1,
     type: "LIVE STREAM",
@@ -19,4 +19,4 @@ const upcoming_events = [
   }
 ];
 
-export default upcoming_events;
+export default events_database;

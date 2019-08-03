@@ -2,11 +2,14 @@ import React from 'react'
 
 // Component Import
 import Navbar from '../header/Navbar'
-import Stream_tab from './Stream_tab'
-import Video_tab from './Video_tab'
+import Artist_stream from './Artist_stream'
+import Artist_videos from './Artist_videos'
+import Artist_writings from './Artist_writings'
+import Artist_navbar from './Artist_navbar';
+
 
 //Styling Import
-import '../../Assets/css/artist/artist.css'
+import '../../Assets/css/artist/artist.css';
 
 class Artist extends React.Component {
     constructor(){
@@ -15,13 +18,30 @@ class Artist extends React.Component {
             tab: "Stream"
         };
     }
+    handleClickStream(e){
+        this.setState({
+            tab: "Stream"
+        })
+    }
+    handleClickVideos(e){
+        this.setState({
+            tab: "Videos"
+        })
+    }
+    handleClickWritings(e){
+        this.setState({
+            tab: "Writings"
+        })
+    }
     artist() {
         if (this.state.tab === "Stream") {
-            return(
-                <Stream_tab/>
-            )
-        } else if (this.state.tab === "Video") {
-            return(<Video_tab/>)
+            return( <Artist_stream/> )
+        } else if (this.state.tab === "Videos") {
+            return( <Artist_videos/> )
+        } else if (this.state.tab === "Writings") {
+            return( <Artist_writings/> )
+        } else {
+            return( <h1> Error. Try Refreshing. </h1> )
         }
     }
 
@@ -30,6 +50,11 @@ class Artist extends React.Component {
             <div>
                 <Navbar/>
                 <div className="artist">
+                    <Artist_navbar
+                        artist="Shepherd"
+                        stream={this.handleClickStream.bind(this)}
+                        videos={this.handleClickVideos.bind(this)}
+                        writings={this.handleClickWritings.bind(this)}/>
                     {this.artist()}
                 </div>
             </div>

@@ -11,16 +11,16 @@ import MediaQuery from 'react-responsive';
 import Video_card from "./Video_card";
 
 //Database Imports
-import uploaded_videos from "./uploaded_videos";
+import videos_database from "./videos_database";
 
 //Styling Imports
-import "../../Assets/css/artist/video_tab.css";
+import "../../Assets/css/artist/artist_videos.css";
 
-class Video_tab extends React.Component {
+class Artist_videos extends React.Component {
     constructor() {
         super();
         this.state = {
-            videos: uploaded_videos
+            videos: videos_database
         };
     }
     render() {
@@ -35,8 +35,8 @@ class Video_tab extends React.Component {
             />
         ));
         return (
-            <div className="video_tab_uploaded_videos">
-                <div className = "video_tab_uploaded_video_cards">
+            <div className="artist_videos_uploaded_videos">
+                <div className = "artist_videos_uploaded_video_cards">
                     {videoCards}
                 </div>
             </div>
@@ -44,4 +44,4 @@ class Video_tab extends React.Component {
     }
 }
 
-export default Video_tab;
+export default Artist_videos;

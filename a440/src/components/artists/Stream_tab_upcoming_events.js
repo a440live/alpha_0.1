@@ -11,7 +11,7 @@ import MediaQuery from 'react-responsive';
 import Event_card from "./Event_card";
 
 //Database Imports
-import upcoming_events from "./upcoming_events";
+import events_database from "./events_database";
 
 //Styling Imports
 import "../../Assets/css/artist/stream_tab_upcoming_events.css";
@@ -20,7 +20,7 @@ class Stream_tab_upcoming_events extends React.Component {
     constructor() {
         super();
         this.state = {
-            events: upcoming_events
+            events: events_database
         };
     }
     render() {

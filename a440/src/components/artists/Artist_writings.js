@@ -20,20 +20,20 @@ class Artist_writings extends React.Component {
     constructor() {
         super();
         this.state = {
-            streams: writings_data
+            writings: writings_data
         };
     }
     render() {
-        const writingsCard = this.state.streams.map(stream => (
+        const writingsCard = this.state.writings.map(writing => (
             <Writings_card
-                key={stream.id}
-                title={stream.title}
-                artist={stream.artist}
-                date={stream.date}
-                description={stream.description}
-                writingurl={stream.writingurl}
-                imgsrc={stream.imgsrc}
-                imgalt={stream.imgalt}
+                key={writing.id}
+                title={writing.title}
+                artist={writing.artist}
+                date={writing.date}
+                description={writing.description}
+                writingurl={writing.writingurl}
+                imgsrc={writing.imgsrc}
+                imgalt={writing.imgalt}
             />
         ));
 
