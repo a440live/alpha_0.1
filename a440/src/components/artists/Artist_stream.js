@@ -5,12 +5,12 @@ import Artist_short_bio from './Artist_short_bio'
 import Stream_tab_upcoming_events from './Stream_tab_upcoming_events'
 
 //Styling Import
-import '../../Assets/css/artist/Artist_stream.css'
+import '../../Assets/css/artist/artist_stream.css'
 
 class Artist_stream extends React.Component {
     render() {
         return(
-            <div className="Artist_stream">
+            <div className="artist_stream">
                 {this.props.liveSrc ?
                     <iframe
                         className="stream_tab_live"

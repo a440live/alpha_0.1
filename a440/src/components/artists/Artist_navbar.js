@@ -21,7 +21,7 @@ class Artist_navbar extends React.Component{
     render(){
         return (
 
-            <nav className="navbar">
+            <nav className="artist_navbar">
                 <ul className="navbar_list">
                     <a style={{ textDecoration: 'none', color: 'black'}} className="navbar_link" onClick={this.handleClickStream.bind(this)}>
                         {this.props.artist}

@@ -1,5 +1,6 @@
-.Artist_stream {
+.artist_stream {
     width: 80%;
+    padding-top: 60px;
 }
 
 .offline_stream_box {
@@ -7,8 +8,8 @@
     text-align: center;
     background-color: #f0f0f0;
     border-radius: 20px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 40px;
 }
 

@@ -1,8 +1,8 @@
 .artist_videos_uploaded_videos {
-  width: 85%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  margin-top: 4vw;
+  padding-top: 100px;
 }
 
 .artist_videos_videos_title {

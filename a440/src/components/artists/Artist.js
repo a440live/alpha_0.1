@@ -50,11 +50,13 @@ class Artist extends React.Component {
             <div>
                 <Navbar/>
                 <div className="artist">
-                    <Artist_navbar
-                        artist="Shepherd"
-                        stream={this.handleClickStream.bind(this)}
-                        videos={this.handleClickVideos.bind(this)}
-                        writings={this.handleClickWritings.bind(this)}/>
+                    <div classname="artist_navbar">
+                        <Artist_navbar
+                            artist="Shepherd"
+                            stream={this.handleClickStream.bind(this)}
+                            videos={this.handleClickVideos.bind(this)}
+                            writings={this.handleClickWritings.bind(this)}/>
+                    </div>
                     {this.artist()}
                 </div>
             </div>
