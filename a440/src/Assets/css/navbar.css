@@ -38,6 +38,7 @@ Navigation Bar
     padding-top: 1vh;
     box-shadow: 0 15px 3vh 3vh white;
     z-index: 9;
+    cursor: pointer;
 }
 
 .navbar_list{

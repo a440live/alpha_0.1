@@ -9,13 +9,13 @@ import Artist_navbar from './Artist_navbar';
 
 
 //Styling Import
-import '../../Assets/css/artist/artist.css';
+import '../../Assets/css/artist/artist_page.css';
 
 class Artist extends React.Component {
     constructor(){
         super();
         this.state = {
-            tab: "Stream"
+            tab: "Stream",
         };
     }
     handleClickStream(e){
@@ -33,7 +33,7 @@ class Artist extends React.Component {
             tab: "Writings"
         })
     }
-    artist() {
+    artist_page() {
         if (this.state.tab === "Stream") {
             return( <Artist_stream/> )
         } else if (this.state.tab === "Videos") {
@@ -49,15 +49,15 @@ class Artist extends React.Component {
         return(
             <div>
                 <Navbar/>
-                <div className="artist">
-                    <div classname="artist_navbar">
+                <div className="artist_page">
+                    <div className="artist_navbar">
                         <Artist_navbar
-                            artist="Shepherd"
+                            artist="Shepherd School of Music"
                             stream={this.handleClickStream.bind(this)}
                             videos={this.handleClickVideos.bind(this)}
                             writings={this.handleClickWritings.bind(this)}/>
                     </div>
-                    {this.artist()}
+                    {this.artist_page()}
                 </div>
             </div>
         )

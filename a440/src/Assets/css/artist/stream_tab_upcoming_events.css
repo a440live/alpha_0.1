@@ -6,7 +6,7 @@
 }
 
 .stream_tab_events_title {
-  font-family: "Futura Std";
+  font-family: "Futura Std", serif;
   font-weight: lighter;
   font-size: 3vw;
   text-shadow: 0 0 2px var(--gray);

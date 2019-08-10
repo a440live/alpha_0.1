@@ -1,5 +1,5 @@
 .writings_card {
-    width: 800px;
+    width: 100%;
     height: auto;
     box-shadow: 0 2px 5px #808080;
     display: flex;
@@ -16,8 +16,8 @@
 
 .writings_thumbnail {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .writings_title {
@@ -44,7 +44,7 @@
 }
 
 .writings_text {
-    margin: 0 2% 3% 2%;
+    margin: 0 2% 0 2%;
     color: black;
 }
 
@@ -53,7 +53,7 @@
     font-size: 15px;
     font-weight: 400;
     text-align: left;
-    margin: 14px 0;
+    margin: 8px 0;
 }
 
 .empty {

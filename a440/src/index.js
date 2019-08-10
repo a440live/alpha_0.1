@@ -7,12 +7,14 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom';
 // Component imports:
 import App from './App';
 import Artist from './components/artists/Artist'
+import Artists_list from "./components/artists/Artists_page";
 
 const routing = (
     <Router>
         <div>
             <Route exact path="/" component={App} />
-            <Route path="/artist" component={Artist} />
+            <Route exact path='/artists' component={Artists_list} />
+            <Route path="/artists/riceuniversity" component={Artist} />
         </div>
     </Router>
 );

@@ -16,7 +16,7 @@ function Header() {
                 <Link to={'/'} style={{ textDecoration: 'none', color: 'black'}} className="blank">
                     <img className='logo' src='/logo.png' alt='A440 Logo'/>
                 </Link>
-                <Link to={'/artist'} style={{ textDecoration: 'none', color: 'black'}} className="navbar_link">
+                <Link to={'/artists'} style={{ textDecoration: 'none', color: 'black'}} className="navbar_link">
                     Artists
                 </Link>
                 <a href="#0" className="navbar_link">

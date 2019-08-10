@@ -1,7 +1,7 @@
 .video_card {
   width: 300px;
   height: auto;
-  box-shadow: 0px 2px 5px #808080;
+  box-shadow: 0 2px 5px #808080;
   display: flex;
   flex-direction: column;
   color: black;

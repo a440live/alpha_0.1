@@ -14,7 +14,7 @@ const writings_data = [
     },
     {
         id: 1,
-        imgsrc: './thumbnail.png',
+        imgsrc: thumbnail,
         imgalt: "Loreem ipsum",
         title: "The Making of Liszt's 4th Symphony",
         artist: "Shepherd Symphony Orchestra",
