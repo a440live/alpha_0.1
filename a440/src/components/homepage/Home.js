@@ -32,7 +32,7 @@ class Home extends React.Component {
                     liveTitle="Tchaikovsky’s 5th Symphony, Shostakovich’s 6th Symphony"
                     liveArtist="Shepherd School of Music"
                     liveNow="True"
-                    liveSrc="https://www.youtube.com/embed/2DYYVp4QXew"
+                    liveSrc="https://www.youtube.com/embed/w2JBT0HC98I"
                     videoSrc="https://www.autoblog.com/img/adblocker-interstitial.jpg"
                 />
 

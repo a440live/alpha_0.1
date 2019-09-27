@@ -8,7 +8,7 @@ const upcoming_streams = [
     date: "Tuesday, July 2, 2019",
     time: "19:00 CST",
     streamurl:
-      "https://www1.9anime.nl/watch/fullmetal-alchemist-brotherhood.0r7/wv9oko"
+      "https://www.youtube.com/watch?v=WNK5Xwn-Vg4"
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const upcoming_streams = [
     date: "Tuesday, July 2, 2019",
     time: "19:00 CST",
     streamurl:
-      "https://www1.9anime.nl/watch/fullmetal-alchemist-brotherhood.0r7/wv9oko"
+      "https://www.youtube.com/watch?v=WNK5Xwn-Vg4"
   }
 ];
 

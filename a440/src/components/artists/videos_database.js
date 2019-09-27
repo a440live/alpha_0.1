@@ -7,7 +7,7 @@ const videos_database = [
         title: "Tchaikovsky's 5th Symphony, Shostakovich's 6th Symphony",
         view: "1,000,000",
         videourl:
-            "https://www1.9anime.nl/watch/fullmetal-alchemist-brotherhood.0r7/wv9oko"
+            "https://www.youtube.com/watch?v=WNK5Xwn-Vg4"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const videos_database = [
         title: "Tchaikovsky's 5th Symphony, Shostakovich's 29th Symphony",
         view: "1,000,000",
         videourl:
-            "https://www1.9anime.nl/watch/fullmetal-alchemist-brotherhood.0r7/wv9oko"
+            "https://www.youtube.com/watch?v=WNK5Xwn-Vg4"
     }
 ];
 

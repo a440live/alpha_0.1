@@ -10,7 +10,7 @@ const writings_data = [
         date: "Published on 6/26/2019",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         writingurl:
-            "https://www1.9anime.nl/watch/fullmetal-alchemist-brotherhood.0r7/wv9oko"
+            "https://www.youtube.com/watch?v=WNK5Xwn-Vg4"
     },
     {
         id: 1,
@@ -21,7 +21,7 @@ const writings_data = [
         date: "Published on 6/26/2019",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         writingurl:
-            "https://www1.9anime.nl/watch/fullmetal-alchemist-brotherhood.0r7/wv9oko"
+            "https://www.youtube.com/watch?v=WNK5Xwn-Vg4"
     }
 ];
 
